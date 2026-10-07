@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>VANTA — Creative technology studio</title>
+  <meta name="description" content="VANTA is a creative technology studio in Lisbon and Rotterdam. We design and engineer digital products, interactive experiences and websites for ambitious brands." />
+  <meta name="theme-color" content="#0a0a0b" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <script>
+    document.documentElement.classList.replace('no-js', 'js')
+    // if the app never boots, fall back to the static, fully visible page
+    setTimeout(function () { if (!window.__vanta) document.documentElement.classList.remove('js') }, 5000)
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ───────────── Navigation ───────────── -->
+  <header class="nav" data-nav>
+    <a class="nav__logo" href="#top" data-goto aria-label="VANTA — back to top">VANTA</a>
+    <div class="nav__head" aria-hidden="true">
+      <span class="nav__head-no" data-head-no>01</span>
+      <span class="nav__head-roll"><span class="nav__head-label" data-head-label>Index</span></span>
+    </div>
+    <div class="nav__right">
+      <span class="nav__clock">Lisbon <time data-clock="Europe/Lisbon">--:--</time></span>
+      <button class="nav__menu" type="button" aria-expanded="false" aria-controls="menu" data-menu-toggle>
+        <span class="nav__menu-label" data-menu-label>Menu</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Site menu" data-menu hidden>
+    <nav class="menu__nav" aria-label="Sections">
+      <ol>
+        <li><a href="#top" data-goto><span class="menu__no">01</span><span class="menu__word">Index</span></a></li>
+        <li><a href="#work" data-goto><span class="menu__no">02</span><span class="menu__word">Work</span></a></li>
+        <li><a href="#philosophy" data-goto><span class="menu__no">03</span><span class="menu__word">Philosophy</span></a></li>
+        <li><a href="#capabilities" data-goto><span class="menu__no">04</span><span class="menu__word">Capabilities</span></a></li>
+        <li><a href="#studio" data-goto><span class="menu__no">05</span><span class="menu__word">Studio</span></a></li>
+        <li><a href="#contact" data-goto><span class="menu__no">06</span><span class="menu__word">Contact</span></a></li>
+      </ol>
+    </nav>
+    <div class="menu__aside">
+      <p>Now booking projects<br />from February 2027.</p>
+      <p><a class="link" href="mailto:hello@vanta.example">hello@vanta.example</a></p>
+      <p class="menu__cities">Lisbon — Cais do Sodré<br />Rotterdam — Katendrecht</p>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ───────────── 01 · Index / Hero ───────────── -->
+    <section class="hero" id="top" data-section="Index" data-no="01" data-theme="paper" data-theme-manual>
+      <div class="hero__stage">
+        <div class="void" data-void>
+          <canvas class="void__canvas" aria-hidden="true"></canvas>
+          <div class="void__caption" data-void-caption>
+            <span class="void__plate">Pl. <span data-reel-no>01</span></span>
+            <span class="void__title" data-reel-title>Halden — Sound, made visible</span>
+            <span class="void__ticks" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+          </div>
+        </div>
+
+        <div class="hero__intro">
+          <p class="hero__kicker">Creative technology studio<br />Lisbon &amp; Rotterdam, since 2014</p>
+          <h1 class="hero__title">
+            <span class="sr-only">VANTA. </span>
+            <span class="ln"><span>Most of what gets made</span></span>
+            <span class="ln"><span>online disappears.</span></span>
+            <span class="ln"><span>We make the rest.</span></span>
+          </h1>
+          <p class="hero__links">
+            <a class="link" href="#work" data-goto>See the work</a>
+            <a class="link" href="#contact" data-goto>Start a project</a>
+          </p>
+        </div>
+
+        <div class="wordmark" aria-hidden="true" data-wordmark>
+          <span>V</span><span>A</span><span>N</span><span>T</span><span>A</span>
+        </div>
+
+        <div class="hero__about" data-about>
+          <p class="label">Who we are</p>
+          <p class="hero__about-text" data-about-text>
+            VANTA is a creative technology studio in Lisbon and Rotterdam. Since 2014 we have designed and engineered digital products, interactive experiences and websites for brands that can’t afford to blend in — from first question to final frame rate.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── 02 · Selected work ───────────── -->
+    <section class="work" id="work" data-section="Work" data-no="02" data-theme="ink">
+      <header class="folio">
+        <p class="label">Selected work</p>
+        <p class="folio__note">Four of thirty-one projects, 2024–2026. Every plate on this page is rendered live, in your browser, the way we build.</p>
+      </header>
+
+      <article class="spread spread--a" data-project="halden">
+        <button class="plate plate--wide" type="button" data-open-case="halden" aria-label="Open case: Halden">
+          <canvas data-scene="0" data-seed="0.1" aria-hidden="true"></canvas>
+        </button>
+        <div class="spread__meta">
+          <p class="spread__no">Pl. 01</p>
+          <h2 class="spread__title"><span class="ln"><span>Halden</span></span></h2>
+          <p class="spread__line">Sound, made visible</p>
+          <p class="spread__text">A brand identity that listens. Every product page, package and launch film is generated from how each speaker actually sounds.</p>
+          <ul class="spread__tags"><li>Brand system</li><li>Product site</li><li>Real-time identity</li><li>2026</li></ul>
+        </div>
+      </article>
+
+      <article class="spread spread--b" data-project="mirae">
+        <div class="spread__meta">
+          <p class="spread__no">Pl. 02</p>
+          <h2 class="spread__title"><span class="ln"><span>Mirae Museum</span></span><span class="ln"><span>of Light</span></span></h2>
+          <p class="spread__line">A museum with the lights off</p>
+          <p class="spread__text">Eleven rooms, one rule: nothing glows until you arrive. A permanent exhibition in Seoul where light is the subject, the medium and the guide.</p>
+          <ul class="spread__tags"><li>Interactive exhibition</li><li>Spatial design</li><li>Companion app</li><li>2025</li></ul>
+        </div>
+        <button class="plate plate--tall" type="button" data-open-case="mirae" aria-label="Open case: Mirae Museum of Light">
+          <canvas data-scene="1" data-seed="0.0" aria-hidden="true"></canvas>
+        </button>
+      </article>
+
+      <article class="spread spread--c" data-project="northvault">
+        <button class="plate plate--square" type="button" data-open-case="northvault" aria-label="Open case: Northvault">
+          <canvas data-scene="2" data-seed="0.3" aria-hidden="true"></canvas>
+        </button>
+        <div class="spread__meta">
+          <p class="spread__no">Pl. 03</p>
+          <h2 class="spread__title spread__title--xl"><span class="ln"><span>Northvault</span></span></h2>
+          <p class="spread__line">Banking, with the fog lifted</p>
+          <p class="spread__text">A bank app that explains itself. We rebuilt Northvault’s product around the one question customers actually ask: what can I spend today?</p>
+          <ul class="spread__tags"><li>Product design</li><li>Design system</li><li>iOS &amp; Android</li><li>2025</li></ul>
+        </div>
+      </article>
+
+      <article class="spread spread--d" data-project="ostra">
+        <h2 class="spread__vertical" aria-hidden="true">Ostra</h2>
+        <button class="plate plate--land" type="button" data-open-case="ostra" aria-label="Open case: Ostra">
+          <canvas data-scene="3" data-seed="0.6" aria-hidden="true"></canvas>
+        </button>
+        <div class="spread__meta">
+          <p class="spread__no">Pl. 04</p>
+          <h2 class="spread__title spread__title--sm"><span class="ln"><span>Ostra</span></span></h2>
+          <p class="spread__line">Every route is a landscape</p>
+          <p class="spread__text">A running campaign that is also a map. Forty thousand recorded routes, rendered as terrain you can run through in the browser.</p>
+          <ul class="spread__tags"><li>Campaign platform</li><li>WebGL</li><li>Art direction</li><li>2024</li></ul>
+        </div>
+      </article>
+
+      <div class="archive">
+        <div class="archive__head">
+          <p class="label">Also from the studio</p>
+        </div>
+        <div class="archive__body">
+          <ol class="archive__list">
+            <li>
+              <button class="row" type="button" data-open-case="pallas" data-preview="4" data-preview-seed="0.2">
+                <span class="row__no">05</span><span class="row__client">Pallas Type</span><span class="row__what">Foundry platform &amp; variable-font tester</span><span class="row__year">2024</span>
+              </button>
+            </li>
+            <li>
+              <button class="row" type="button" data-open-case="lumen" data-preview="5" data-preview-seed="0.4">
+                <span class="row__no">06</span><span class="row__client">Lumen Film Festival</span><span class="row__what">Identity, motion system &amp; ticketing</span><span class="row__year">2024</span>
+              </button>
+            </li>
+            <li>
+              <button class="row" type="button" data-open-case="kiln" data-preview="6" data-preview-seed="0.1">
+                <span class="row__no">07</span><span class="row__client">Kiln &amp; Co.</span><span class="row__what">Ceramics commerce &amp; 3D product viewer</span><span class="row__year">2025</span>
+              </button>
+            </li>
+            <li>
+              <button class="row" type="button" data-open-case="verde" data-preview="7" data-preview-seed="0.5">
+                <span class="row__no">08</span><span class="row__client">Verde Grid</span><span class="row__what">Energy network operations product</span><span class="row__year">2026</span>
+              </button>
+            </li>
+          </ol>
+          <div class="archive__preview" aria-hidden="true">
+            <canvas data-archive-preview></canvas>
+            <span class="archive__preview-cap" data-archive-cap>Pl. 05 — Pallas Type</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── 03 · Philosophy ───────────── -->
+    <section class="philosophy" id="philosophy" data-section="Philosophy" data-no="03" data-theme="paper">
+      <div class="redact" data-redact>
+        <div class="redact__sticky">
+          <header class="redact__head">
+            <p class="label">Philosophy</p>
+            <p class="redact__count" aria-hidden="true"><span data-redact-count>0</span> words removed</p>
+          </header>
+          <p class="redact__text" data-redact-text aria-hidden="true">We <span class="r">are a full-service, award-winning, innovation-led agency</span> <span class="r">that leverages cutting-edge technology to ideate, strategize and</span> make <span class="r">seamless, best-in-class, next-generation experiences that truly move the needle across every touchpoint&nbsp;— the kind of</span> things people <span class="r">will actually</span> remember.</p>
+          <p class="sr-only">A paragraph of typical agency language is redacted word by word until one sentence remains: We make things people remember.</p>
+          <p class="redact__caption" data-redact-caption>That was principle 01, applied to our own sentence.<br />The other two follow.</p>
+        </div>
+      </div>
+
+      <ol class="principles">
+        <li>
+          <p class="principles__no">01</p>
+          <h3>Subtract.</h3>
+          <p>Every project starts with a written list of things we won’t make. The work is what’s left when that list is honoured.</p>
+        </li>
+        <li>
+          <p class="principles__no">02</p>
+          <h3>Prototype the feeling.</h3>
+          <p>Latency, easing, weight, sound. The details nobody can name are the ones everybody notices, so we build them in code from the first week — never in slides.</p>
+        </li>
+        <li>
+          <p class="principles__no">03</p>
+          <h3>Stay small on purpose.</h3>
+          <p>Twenty-six people, five or six projects a year. The people who present the work are the people who make it.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ───────────── 04 · Capabilities ───────────── -->
+    <section class="capabilities" id="capabilities" data-section="Capabilities" data-no="04" data-theme="paper">
+      <header class="folio folio--caps">
+        <p class="label">Capabilities</p>
+        <p class="folio__note">Four disciplines, one team. Most projects need all of them, so nothing gets handed over a wall.</p>
+      </header>
+
+      <div class="caps" data-caps>
+        <div class="cap">
+          <h3 class="cap__h">
+            <button class="cap__btn" type="button" aria-expanded="false" aria-controls="cap-products" id="cap-products-btn">
+              <span class="cap__no">01</span>
+              <span class="cap__word" data-fit>Products</span>
+              <span class="cap__sub">Digital products</span>
+              <span class="cap__toggle" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="cap__panel" id="cap-products" role="region" aria-labelledby="cap-products-btn" hidden>
+            <div class="cap__inner">
+              <p class="cap__desc">Apps, platforms and tools people use every day. Research, product design, design systems and engineering — shipped by one team, not handed between three.</p>
+              <div class="cap__col"><p class="label">What that includes</p><ul><li>Product strategy &amp; research</li><li>UX &amp; interface design</li><li>Design systems</li><li>iOS, Android &amp; web engineering</li><li>Prototyping in code</li></ul></div>
+              <div class="cap__col"><p class="label">Seen in</p><ul><li><button type="button" class="link" data-open-case="northvault">Northvault</button></li><li><button type="button" class="link" data-open-case="verde">Verde Grid</button></li></ul><p class="cap__typ">Typically 6–12 months,<br />a team of six to ten.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cap">
+          <h3 class="cap__h">
+            <button class="cap__btn" type="button" aria-expanded="false" aria-controls="cap-experiences" id="cap-experiences-btn">
+              <span class="cap__no">02</span>
+              <span class="cap__word" data-fit>Experiences</span>
+              <span class="cap__sub">Interactive experiences</span>
+              <span class="cap__toggle" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="cap__panel" id="cap-experiences" role="region" aria-labelledby="cap-experiences-btn" hidden>
+            <div class="cap__inner">
+              <p class="cap__desc">Installations, exhibitions and launches that respond to the people in front of them. Real-time graphics, sensors and sound — and the hardware to keep them running for years.</p>
+              <div class="cap__col"><p class="label">What that includes</p><ul><li>Real-time graphics: WebGL, Unreal, TouchDesigner</li><li>Spatial &amp; physical installation</li><li>Generative systems</li><li>Sound &amp; haptics</li><li>Hardware integration</li></ul></div>
+              <div class="cap__col"><p class="label">Seen in</p><ul><li><button type="button" class="link" data-open-case="mirae">Mirae Museum of Light</button></li><li><button type="button" class="link" data-open-case="ostra">Ostra</button></li></ul><p class="cap__typ">Typically 4–10 months,<br />a team of five to eight.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cap">
+          <h3 class="cap__h">
+            <button class="cap__btn" type="button" aria-expanded="false" aria-controls="cap-websites" id="cap-websites-btn">
+              <span class="cap__no">03</span>
+              <span class="cap__word" data-fit>Websites</span>
+              <span class="cap__sub">Flagship websites</span>
+              <span class="cap__toggle" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="cap__panel" id="cap-websites" role="region" aria-labelledby="cap-websites-btn" hidden>
+            <div class="cap__inner">
+              <p class="cap__desc">Flagship sites built as carefully as the products they sell. Art direction, motion and creative development, with a performance budget we actually keep.</p>
+              <div class="cap__col"><p class="label">What that includes</p><ul><li>Art direction</li><li>Motion design</li><li>Creative development</li><li>Headless CMS &amp; editorial tooling</li><li>Performance &amp; accessibility</li></ul></div>
+              <div class="cap__col"><p class="label">Seen in</p><ul><li><button type="button" class="link" data-open-case="halden">Halden</button></li><li><button type="button" class="link" data-open-case="pallas">Pallas Type</button></li><li><button type="button" class="link" data-open-case="kiln">Kiln &amp; Co.</button></li></ul><p class="cap__typ">Typically 3–6 months,<br />a team of four to six.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cap">
+          <h3 class="cap__h">
+            <button class="cap__btn" type="button" aria-expanded="false" aria-controls="cap-identities" id="cap-identities-btn">
+              <span class="cap__no">04</span>
+              <span class="cap__word" data-fit>Identities</span>
+              <span class="cap__sub">Brand systems for screens</span>
+              <span class="cap__toggle" aria-hidden="true"></span>
+            </button>
+          </h3>
+          <div class="cap__panel" id="cap-identities" role="region" aria-labelledby="cap-identities-btn" hidden>
+            <div class="cap__inner">
+              <p class="cap__desc">Identities designed for screens first: type that moves, marks that respond, and rules that still hold at sixty frames a second.</p>
+              <div class="cap__col"><p class="label">What that includes</p><ul><li>Visual identity</li><li>Motion identity</li><li>Generative brand tools</li><li>Type direction</li><li>Guidelines as code</li></ul></div>
+              <div class="cap__col"><p class="label">Seen in</p><ul><li><button type="button" class="link" data-open-case="halden">Halden</button></li><li><button type="button" class="link" data-open-case="lumen">Lumen Film Festival</button></li></ul><p class="cap__typ">Typically 3–8 months,<br />a team of three to six.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── 05 · Studio ───────────── -->
+    <section class="studio" id="studio" data-section="Studio" data-no="05" data-theme="paper">
+      <header class="folio">
+        <p class="label">Studio</p>
+      </header>
+
+      <div class="studio__grid">
+        <h2 class="studio__statement" data-lines>Small enough to argue about an easing curve. Big enough to ship it on time.</h2>
+
+        <dl class="facts">
+          <div><dt>Founded</dt><dd>2014, Lisbon</dd></div>
+          <div><dt>People</dt><dd>26 designers, engineers and producers</dd></div>
+          <div><dt>Average tenure</dt><dd>Six years</dd></div>
+          <div><dt>Languages spoken</dt><dd>Eleven, plus GLSL</dd></div>
+        </dl>
+
+        <div class="cities">
+          <div class="city">
+            <p class="label">Lisbon</p>
+            <p class="city__time"><time data-clock="Europe/Lisbon" data-clock-seconds>--:--</time></p>
+            <p class="city__status" data-status="Europe/Lisbon">—</p>
+            <p class="city__addr">Cais do Sodré<br />Design, production &amp; real-time</p>
+          </div>
+          <div class="city">
+            <p class="label">Rotterdam</p>
+            <p class="city__time"><time data-clock="Europe/Amsterdam" data-clock-seconds>--:--</time></p>
+            <p class="city__status" data-status="Europe/Amsterdam">—</p>
+            <p class="city__addr">Katendrecht<br />Engineering &amp; product</p>
+          </div>
+        </div>
+
+        <div class="people">
+          <p class="label">Led by</p>
+          <ul>
+            <li><span>Inês Moura</span><span>Founder, Creative Director</span></li>
+            <li><span>Daan Verhoef</span><span>Technical Director</span></li>
+            <li><span>Sofia Brandão</span><span>Design Director</span></li>
+            <li><span>Kenji Arakawa</span><span>Head of Real-time</span></li>
+            <li><span>Marta Kowalczyk</span><span>Executive Producer</span></li>
+          </ul>
+          <p class="people__more">and twenty-one others.</p>
+        </div>
+
+        <div class="clients">
+          <p class="label">Partners since 2020</p>
+          <p class="clients__list">Halden, Mirae Foundation, Northvault, Ostra, Pallas Type, Lumen Film Festival, Kiln &amp; Co., Verde Grid, Arkade Transit, Solvei Hotels, Maison Aube, Fjord Public Radio.</p>
+        </div>
+
+        <div class="careers">
+          <p class="label">Careers</p>
+          <p>We hire twice a year. The next window opens in January 2027 — for designers who can read a shader and engineers who care about kerning.</p>
+          <p><a class="link" href="mailto:jobs@vanta.example">jobs@vanta.example</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── 06 · Contact ───────────── -->
+    <section class="contact" id="contact" data-section="Contact" data-no="06" data-theme="ink" data-theme-manual>
+      <div class="contact__field" data-contact-field>
+        <div class="contact__inner">
+          <header class="contact__head">
+            <p class="label">Contact</p>
+            <p class="contact__avail"><span class="dot" aria-hidden="true"></span>Now booking from February 2027</p>
+          </header>
+
+          <h2 class="contact__title" data-contact-title>
+            <span class="ln"><span>Bring us</span></span>
+            <span class="ln"><span>the hard one.</span></span>
+          </h2>
+
+          <form class="brief" data-brief novalidate>
+            <p class="brief__intro">Tell us what you’re working on. This composes an email to the studio — nothing is stored on this page.</p>
+            <p class="brief__sentence">
+              Hello VANTA, I’m
+              <label class="field"><span class="sr-only">Your name</span><input name="name" type="text" autocomplete="name" placeholder="your name" required size="9" /></label>
+              from
+              <label class="field"><span class="sr-only">Company</span><input name="company" type="text" autocomplete="organization" placeholder="company" size="8" /></label>.
+              We need help with
+              <label class="field field--select"><span class="sr-only">Type of project</span>
+                <select name="kind">
+                  <option>a digital product</option>
+                  <option>an interactive experience</option>
+                  <option>a flagship website</option>
+                  <option>a brand system</option>
+                  <option>something we can’t name yet</option>
+                </select>
+              </label>
+              and hope to start
+              <label class="field field--select"><span class="sr-only">Preferred start</span>
+                <select name="when">
+                  <option>in early 2027</option>
+                  <option>in spring 2027</option>
+                  <option>later in 2027</option>
+                  <option>as soon as possible</option>
+                </select>
+              </label>.
+              Write back to
+              <label class="field field--wide"><span class="sr-only">Your email</span><input name="email" type="email" autocomplete="email" placeholder="you@company.com" required size="14" /></label>.
+            </p>
+            <div class="brief__foot">
+              <button class="brief__send" type="submit"><span>Compose email</span></button>
+              <p class="brief__status" role="status" aria-live="polite" data-brief-status></p>
+            </div>
+          </form>
+
+          <div class="contact__direct">
+            <div><p class="label">New projects</p><p><a class="link" href="mailto:hello@vanta.example">hello@vanta.example</a> <button class="copy" type="button" data-copy="hello@vanta.example">Copy</button></p></div>
+            <div><p class="label">Visits</p><p>Both studios, by appointment.<br />Mon–Fri, 09:00–19:00</p></div>
+            <div><p class="label">Press &amp; talks</p><p><a class="link" href="mailto:press@vanta.example">press@vanta.example</a></p></div>
+          </div>
+        </div>
+
+        <footer class="foot">
+          <div class="foot__mark" aria-hidden="true">
+            <canvas data-foot-canvas></canvas>
+            <div class="foot__mask"><span>VANTA</span></div>
+          </div>
+          <div class="foot__row">
+            <span>© 2014–2026 VANTA Studio</span>
+            <span>A fictional studio, made as a design study</span>
+            <a class="link" href="#top" data-goto>Back to top</a>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- ───────────── Case view ───────────── -->
+  <div class="case" role="dialog" aria-modal="true" aria-labelledby="case-title" data-case hidden>
+    <div class="case__scroll" data-case-scroll data-lenis-prevent>
+      <div class="case__plate" data-case-plate>
+        <canvas data-case-canvas aria-hidden="true"></canvas>
+      </div>
+      <div class="case__bar">
+        <p class="case__count" data-case-count>Case 01 / 08</p>
+        <button class="case__close" type="button" data-case-close>Close <span aria-hidden="true">(Esc)</span></button>
+      </div>
+      <div class="case__body" data-case-body>
+        <header class="case__head">
+          <p class="case__no" data-case-no>Pl. 01</p>
+          <h2 class="case__title" id="case-title" data-case-title>Halden</h2>
+          <p class="case__line" data-case-line></p>
+        </header>
+        <dl class="case__meta" data-case-meta></dl>
+        <div class="case__text" data-case-text></div>
+        <figure class="case__fig">
+          <div class="case__fig-plate"><canvas data-case-canvas-2 aria-hidden="true"></canvas></div>
+          <figcaption data-case-fig></figcaption>
+        </figure>
+        <button class="case__next" type="button" data-case-next>
+          <span class="label">Next case</span>
+          <span class="case__next-title" data-case-next-title>Mirae Museum of Light</span>
+        </button>
+      </div>
+    </div>
+    <div class="case__wipe" data-case-wipe aria-hidden="true"></div>
+  </div>
+
+  <div class="cursor" aria-hidden="true" data-cursor><span>View case</span></div>
+  <div class="cut" aria-hidden="true" data-cut></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
